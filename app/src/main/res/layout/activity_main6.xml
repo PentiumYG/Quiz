@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yuktigoswami.quiz.Main6Activity">
+
+    <TextView
+        android:id="@+id/finalresult"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:layout_marginStart="18dp"
+        android:layout_alignBaseline="@+id/textView15"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_toEndOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="/5"
+        android:textSize="36sp"
+        android:layout_alignBaseline="@+id/finalresult"
+        android:layout_alignBottom="@+id/finalresult"
+        android:layout_toEndOf="@+id/finalresult" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="WELCOME TO RESULT "
+        android:textSize="36sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView17"
+        android:layout_below="@+id/textView17"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="31dp"
+        android:text="RESULT="
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView15"
+        android:layout_below="@+id/finalresult"
+        android:layout_marginTop="52dp"
+        android:text="RIGHT ATTEMPTS"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/rightAttempts"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView18"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@+id/finalresult"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_centerVertical="true"
+        android:text="WRONG ATTEMPTS"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/wrongAttempts"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/rightAttempts"
+        android:layout_centerVertical="true"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView20"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="TOTAL SCORE %"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/percentage"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView22"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="%"
+        android:textSize="36sp"
+        android:layout_alignBaseline="@+id/percentage"
+        android:layout_alignBottom="@+id/percentage"
+        android:layout_alignEnd="@+id/textView16" />
+</RelativeLayout>
